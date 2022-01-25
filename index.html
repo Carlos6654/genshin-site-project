@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Genshin Project</title>
     
-    <!--Scripts e Fontawesome6-->
+    <!--#####   Scripts e Fontawesome6   #####*-->
     <script type="text/javascript" src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/22465cdad1.js" crossorigin="anonymous"></script>
     
-    <!--Bootstrap5 and CSS-->
+    <!--#####   Bootstrap5 and CSS   #####-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
-    <!--Fonts-->
-    <!--
+    <!--#####   Fonts   #####
       font-family: 'Caveat', cursive;
       font-family: 'Indie Flower', cursive;
       font-family: 'Lato', sans-serif;
@@ -24,25 +24,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Lato&display=swap" rel="stylesheet">
 
-    
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--#####   Import JQuery   #####-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/jquery.js"></script>
-    <script> 
-      $(function(){
-        $("#navbar").load("navbar.html"); 
-      });
-    </script> 
-    
-    -->
-
-    <title>Genshin Project</title>
-    
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 <body>
 
   <main>
-    <!--NAVBAR-->
+    <!--#####   Imported Menu/Navbar   #####-->
     <div id="navbar"></div>
 
     <h1>Genshin Project</h1>
@@ -53,30 +42,31 @@
     </div>
     
     <!--Testes com grid - Nicolas Chinaglia (22/01/2022)-->
+    <!--class "vision" is used for jquery-->
     <div class="container">
       <div class="row" id="row-elements">
         <h2>Selecione um elemento</h2>
       </div>
       <div class="row">
-        <div class="col-sm">
+        <div class="col-sm vision">
           <img src="img/pyro.png" alt="Imagem elemento Pyro" width="100px">
         </div>
-        <div class="col-sm">
+        <div class="col-sm vision">
           <img src="img/hydro.png" alt="Imagem elemento Hydro" width="100px">
         </div>
-        <div class="col-sm">
+        <div class="col-sm vision">
           <img src="img/anemo.png" alt="Imagem elemento Anemo" width="100px">
         </div>
-        <div class="col-sm">
+        <div class="col-sm vision">
           <img src="img/eletro.png" alt="Imagem elemento Eletro" width="100px">
         </div>
-        <div class="col-sm">
+        <div class="col-sm vision">
           <img src="img/dendro.png" alt="Imagem elemento Dendro" width="100px">
         </div>
-        <div class="col-sm">
+        <div class="col-sm vision">
           <img src="img/cryo.png" alt="Imagem elemento cryo" width="100px">
         </div>
-        <div class="col-sm">
+        <div class="col-sm vision">
           <img src="img/geo.png" alt="Imagem elemento Geo" width="100px">
         </div>
       </div>
@@ -92,43 +82,7 @@
 </script>
 
 </body>
-<footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" target="_blank" rel="external" href="https://www.facebook.com/profile.php?id=100002289219169" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" target="_blank" rel="external" href="https://www.instagram.com/carlos_camposjr/" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" target="_blank" rel="external" href="https://www.linkedin.com/in/carlos-campos-a0486a11b/" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-  
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" target="_blank" rel="external" href="https://github.com/Carlos6654" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
-    </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright: Genshin Impact and it's characters have all rights reserved by miHoYo.<br> Carlos Acácio de Campos Júnior & Nicolas Roberto Chinaglia
-    </div>
-    <!-- Copyright -->
-</footer>
-
-
-
+<!--#####   Inported Footer   #####-->
+<div id="footer"></div>
 
 </html>
